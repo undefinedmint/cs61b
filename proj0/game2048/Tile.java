@@ -1,5 +1,7 @@
 package game2048;
 
+import java.util.function.Predicate;
+
 /** Represents the image of a numbered tile on a 2048 board.
  *  @author P. N. Hilfinger.
  */
@@ -25,7 +27,9 @@ public class Tile {
         return col;
     }
 
-    /** Return the value supplied to my constructor. */
+    /**
+     * Return the value supplied to my constructor.
+     */
     public int value() {
         return value;
     }
